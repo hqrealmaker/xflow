@@ -10,3 +10,38 @@ body,
   height: 100%;
   margin: 0;
 }
+
+.react-flow__node {
+  padding: 10px;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 12px;
+  color: #222;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  background: white;
+  border-color: #1a192b;
+}
+
+.text-node {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.text-node textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  border: none;
+  outline: none;
+}
+
+.image-node {
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: white;
+}
